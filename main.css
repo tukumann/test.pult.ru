@@ -1,0 +1,73 @@
+body {
+    background-color: #007;
+}
+
+h1 {
+    color: black;
+    font-size: 24px;
+}
+
+p {
+    font-size: 16px;
+    color: gray;
+}
+
+img {
+    width: 300px;
+    height: 40%;
+    padding-right: 10px;
+    align: left;
+}
+
+a {
+    color: grey;
+}
+
+.blackSquare {
+    float: left; 
+    margin: 7px 0 7px 7px;
+}
+
+.container {
+    background-color: #56e;
+    width: 60%;
+    min-height: 400px;
+    align-items: center;
+    text-align: center;
+    display: block;
+    margin: auto;
+    margin-top: auto;
+    vertical-align: middle;
+}
+
+
+button {
+    color: black;
+    border: 1px solid white; 
+    background-color: green;
+    text-align: left;
+    border-radius: 10px;
+ }
+
+.inner2 {
+    text-align: left;
+}
+
+@media screen and (max-width: 800px) {
+  body {
+    background-color: #009;
+    
+  }
+
+  .container {
+    background-color: #56e;
+    width: 100%;
+  }
+
+  button {
+     border: 1px solid white; 
+     background-color: yellow;
+     color: black;
+    }
+
+}
